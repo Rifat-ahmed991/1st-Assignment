@@ -24,9 +24,51 @@ p{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-image: linear-gradient(45deg, rgb(146, 122, 255), rgb(71, 83, 255));
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
     font-weight: bold;
+}
+#h{
+    text-align:center;
+}
+section{
+    height:500px;
+    padding-bottom: 150px;
+}
+.t-width{
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 4%;
+    text-align: center;
+}
+.new{
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    border-radius: 30px;
+    position: absolute;
+    width: 852px;
+    height: 100px;
+    left: 267px;
+    top: 2101px;
+    float: left;
+    color: aliceblue;
+}
+.lnk-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(236, 67, 25), rgb(240, 54, 8));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+#margin{
+    margin-top: 100px;
+    text-align:right ;
+}
+.foot{
+    display: inline-block;
 }
