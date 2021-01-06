@@ -18,6 +18,7 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+   
 }
 .half-width img{
     width: 100%;
@@ -44,18 +45,30 @@ section{
     margin-left: 4%;
     text-align: center;
 }
+.singel{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 80%;
+}
+#full{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
 .new{
-    background-image: url(shapes/Group_33094_1.png);
-    background-repeat: no-repeat;
-    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    background: url(shapes/Group_33094_1.png) no-repeat center fixed;
+    background-size: cover;
+    width: 1200px;
     border-radius: 30px;
-    position: absolute;
-    width: 852px;
-    height: 100px;
-    left: 267px;
-    top: 2101px;
     float: left;
     color: aliceblue;
+    position: relative;
+    margin-left: 200px;
 }
 .lnk-button{
     text-decoration: none;
@@ -65,10 +78,14 @@ section{
     color: white;
     font-weight: bold;
 }
-#margin{
-    margin-top: 100px;
-    text-align:right ;
+#hh{
+    padding: 20px;
 }
-.foot{
-    display: inline-block;
+#margin{
+    text-align:right ;
+    padding-bottom: 50px;
+}
+.last{
+    width: 100%;
+    text-align: center;
 }
